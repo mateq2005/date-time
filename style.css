@@ -29,9 +29,19 @@ main {
     width: 100vw;
     height: 100vh;
 
+    padding: 5px;
+
 }
 
-section {
+#time {
+
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    font-size: 12vw;
+
+}
+
+#date {
 
     text-align: center;
     text-shadow: 1px 1px 1px white;
@@ -41,10 +51,9 @@ section {
 
 footer {
 
-    position: fixed;
-    bottom: 0;
-    padding: 1vw;
-    font-size: 1.25vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    font-size: 1vw;
 
 }
 
@@ -57,12 +66,17 @@ footer a {
 
 @media only screen and (max-width: 600px) {
 
-    footer  {
-        font-size: 3vw;
+    #time {
+        font-size: 4em;
     }
 
-    #time { 
-        font-size: 15vw; 
+    
+    #date {
+        font-size: 3em;
     }
 
-  }
+    footer {
+        font-size: 1em;
+    }
+
+}
